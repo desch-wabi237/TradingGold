@@ -1,0 +1,158 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+}
+
+/* Tailles du logo */
+.logo-small {
+  font-size: 1rem;
+  gap: 0.5rem;
+}
+
+.logo-small .logo-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.logo-medium {
+  font-size: 1.5rem;
+  gap: 0.75rem;
+}
+
+.logo-medium .logo-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.logo-large {
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+.logo-large .logo-icon {
+  width: 48px;
+  height: 48px;
+}
+
+/* Icône du logo */
+.logo-icon {
+  position: relative;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.logo-gold-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-gold), #a16207);
+}
+
+.logo-chart {
+  width: 60%;
+  height: 60%;
+  background: 
+    /* Ligne de tendance */
+    linear-gradient(90deg, transparent 30%, var(--color-gold-light) 30%, var(--color-gold-light) 35%, transparent 35%),
+    linear-gradient(90deg, transparent 50%, var(--color-gold-light) 50%, var(--color-gold-light) 55%, transparent 55%),
+    linear-gradient(90deg, transparent 70%, var(--color-gold-light) 70%, var(--color-gold-light) 75%, transparent 75%),
+    /* Points sur la ligne */
+    radial-gradient(circle at 30% 50%, var(--color-gold) 3px, transparent 3px),
+    radial-gradient(circle at 50% 30%, var(--color-gold) 3px, transparent 3px),
+    radial-gradient(circle at 70% 60%, var(--color-gold) 3px, transparent 3px);
+  background-repeat: no-repeat;
+}
+
+/* Texte du logo */
+.logo-text {
+  display: flex;
+  align-items: baseline;
+  gap: 0.125rem;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.logo-primary {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.logo-accent {
+  color: var(--color-gold);
+  font-weight: 700;
+  position: relative;
+}
+
+.logo-accent::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-gold), transparent);
+  border-radius: 1px;
+}
+
+/* Dark theme adjustments */
+[data-theme="dark"] .logo-icon {
+  background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
+}
+
+[data-theme="dark"] .logo-chart {
+  background: 
+    linear-gradient(90deg, transparent 30%, var(--color-gold) 30%, var(--color-gold) 35%, transparent 35%),
+    linear-gradient(90deg, transparent 50%, var(--color-gold) 50%, var(--color-gold) 55%, transparent 55%),
+    linear-gradient(90deg, transparent 70%, var(--color-gold) 70%, var(--color-gold) 75%, transparent 75%),
+    radial-gradient(circle at 30% 50%, var(--color-gold-light) 3px, transparent 3px),
+    radial-gradient(circle at 50% 30%, var(--color-gold-light) 3px, transparent 3px),
+    radial-gradient(circle at 70% 60%, var(--color-gold-light) 3px, transparent 3px);
+}
+
+/* Hover effects */
+.logo:hover {
+  transform: translateY(-1px);
+}
+
+.logo:hover .logo-icon {
+  transform: scale(1.05);
+}
+
+.logo:hover .logo-accent::after {
+  background: linear-gradient(90deg, var(--color-gold), var(--color-gold-light));
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logo-medium {
+    font-size: 1.25rem;
+    gap: 0.5rem;
+  }
+  
+  .logo-medium .logo-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .logo-large {
+    font-size: 1.75rem;
+    gap: 0.75rem;
+  }
+  
+  .logo-large .logo-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
