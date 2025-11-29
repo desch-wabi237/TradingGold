@@ -146,32 +146,32 @@ const Hero = () => {
 const Features = () => {
   const features = [
     {
-      image: "/src/assets/features/formations.jpg",
+      image: "/features/formations.jpg",
       title: "Formations Structurées par Niveau",
       description: "Parcours débutant à expert avec modules progressifs, exercices pratiques et études de cas réels"
     },
     {
-      image: "/src/assets/features/analyses.jpg",
+      image: "/features/analyses.jpg",
       title: "Analyses Marché Quotidiennes",
       description: "Accédez aux analyses techniques et fondamentales des principales paires de devises et indices"
     },
     {
-      image: "/src/assets/features/coaching.jpg",
+      image: "/features/coaching.jpg",
       title: "Coaching Individualisé",
       description: "Sessions de mentoring personnalisées avec retours sur vos trades et optimisation de votre stratégie"
     },
     {
-      image: "/src/assets/features/certifications.jpg",
+      image: "/features/certifications.jpg",
       title: "Certifications Reconnues",
       description: "Obtenez des certificats validant vos compétences et augmentez votre crédibilité en tant que trader"
     },
     {
-      image: "/src/assets/features/communaute.jpg",
+      image: "/features/communaute.jpg",
       title: "Communauté Exclusive",
       description: "Échangez avec des traders confirmés, participez aux challenges et développez votre réseau"
     },
     {
-      image: "/src/assets/features/signaux.jpg",
+      image: "/features/signaux.jpg",
       title: "Signaux Trading en Temps Réel",
       description: "Recevez des alertes de trading qualité avec gestion de risque intégrée et ratios risque/rendement optimisés"
     }

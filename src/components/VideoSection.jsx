@@ -8,7 +8,7 @@ const VideoSection = () => {
       title: "Analyse Marché Quotidienne",
       description: "Revue complète des opportunités trading du jour",
       duration: "15:30",
-      thumbnail: "/src/assets/videos/tech.png",
+      thumbnail: "/videos/tech.png",
       youtubeId: "ZYCw60V9PQk" // Exemple ID YouTube
     },
     {
@@ -16,7 +16,7 @@ const VideoSection = () => {
       title: "Session Live Trading",
       description: "Trading en direct avec explications en temps réel",
       duration: "45:22",
-      thumbnail: "/src/assets/videos/osh.png",
+      thumbnail: "/videos/osh.png",
       youtubeId: "dQw4w9WgXcQ"
     },
     {
@@ -24,7 +24,7 @@ const VideoSection = () => {
       title: "Masterclass Gestion de Risque",
       description: "Techniques avancées de money management",
       duration: "28:15",
-      thumbnail: "/src/assets/videos/fg.png",
+      thumbnail: "/videos/fg.png",
       youtubeId: "tgpV6v-_BQg"
     }
   ]

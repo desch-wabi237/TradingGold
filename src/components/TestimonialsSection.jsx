@@ -7,7 +7,7 @@ const TestimonialsSection = () => {
       id: 1,
       name: "Marie Dubois",
       role: "Trader Indépendante",
-      image: "/src/assets/testimonials/client1.jpg",
+      image: "/testimonials/client1.jpg",
       rating: 5,
       text: "Grâce à TradingGold, j'ai pu transformer ma passion en véritable activité professionnelle. Les formations sont exceptionnelles et le coaching m'a permis d'optimiser ma stratégie.",
       profit: "+15% mensuel"
@@ -16,7 +16,7 @@ const TestimonialsSection = () => {
       id: 3,
       name: "Sophie Lambert",
       role: "Gérante de Portefeuille",
-      image: "/src/assets/testimonials/client3.jpg",
+      image: "/testimonials/client3.jpg",
       rating: 5,
       text: "La qualité des analyses et la réactivité de la communauté ont transformé ma manière d'investir. Une plateforme indispensable pour tout trader sérieux.",
       profit: "+42% sur 6 mois"
@@ -25,7 +25,7 @@ const TestimonialsSection = () => {
       id: 4,
       name: "Alexandre Petit",
       role: "Trader Forex",
-      image: "/src/assets/testimonials/client4.jpg",
+      image: "/testimonials/client4.jpg",
       rating: 5,
       text: "Le suivi personnalisé et les retours constructifs m'ont aidé à corriger mes erreurs rapidement. Je recommande vivement !",
       profit: "Risque maîtrisé"
@@ -34,7 +34,7 @@ const TestimonialsSection = () => {
       id: 5,
       name: "Camille Rousseau",
       role: "Investisseuse Privée",
-      image: "/src/assets/testimonials/client5.jpg",
+      image: "/testimonials/client5.jpg",
       rating: 5,
       text: "Des formations structurées et une communauté bienveillante. J'ai multiplié mon capital par 3 en un an grâce aux conseils avisés.",
       profit: "x3 capital"
