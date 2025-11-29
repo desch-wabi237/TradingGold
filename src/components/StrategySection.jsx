@@ -7,7 +7,7 @@ const StrategySection = () => {
       id: 1,
       title: "Trading de Momentum",
       level: "Intermédiaire",
-      image: "/strategies/momentum.jpg",
+      image: "/strategies/Momentum.jpg",
       description: "Capturez les mouvements directionnels forts du marché",
       features: ["Breakout trading", "Volume analysis", "Timeframe confluence"]
     },
