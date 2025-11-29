@@ -9,7 +9,7 @@ const PerformanceSection = () => {
       type: "Long",
       profit: "+15.4%",
       date: "15 Juin 2025",
-      screenshot: "/src/assets/trades/trade-1.jpg", // Chemin pour image
+      screenshot: "/trades/trade-1.jpg", // Chemin pour image
       description: "Breakout trading sur support clé"
     },
     {
@@ -18,7 +18,7 @@ const PerformanceSection = () => {
       type: "Short",
       profit: "+6.1%",
       date: "14 Fev 2025",
-      screenshot: "/src/assets/trades/trade-2.jpg",
+      screenshot: "/trades/trade-2.jpg",
       description: "Retournement sur résistance majeure"
     },
     {
@@ -27,7 +27,7 @@ const PerformanceSection = () => {
       type: "Long",
       profit: "+4.2%",
       date: "13 Jan 2025",
-      screenshot: "/src/assets/trades/trade-3.jpg",
+      screenshot: "/trades/trade-3.jpg",
       description: "Position sur or suite à données économiques"
     }
   ]

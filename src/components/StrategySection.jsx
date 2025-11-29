@@ -7,7 +7,7 @@ const StrategySection = () => {
       id: 1,
       title: "Trading de Momentum",
       level: "Intermédiaire",
-      image: "/src/assets/strategies/momentum.jpg",
+      image: "/strategies/momentum.jpg",
       description: "Capturez les mouvements directionnels forts du marché",
       features: ["Breakout trading", "Volume analysis", "Timeframe confluence"]
     },
@@ -15,7 +15,7 @@ const StrategySection = () => {
       id: 2,
       title: "Price Action Pure",
       level: "Avancé",
-      image: "/src/assets/strategies/price-action.jpg",
+      image: "/strategies/price-action.jpg",
       description: "Maîtrisez l'analyse des chandeliers japonais et des structures de marché",
       features: ["Support/Resistance", "Pattern recognition", "Market structure"]
     },
@@ -23,7 +23,7 @@ const StrategySection = () => {
       id: 3,
       title: "Swing Trading",
       level: "Tous niveaux",
-      image: "/src/assets/strategies/swing.jpg",
+      image: "/strategies/swing.jpg",
       description: "Positionnez-vous sur les mouvements à moyen terme",
       features: ["Position sizing", "Risk management", "Weekly analysis"]
     }
